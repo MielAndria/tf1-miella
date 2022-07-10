@@ -1,0 +1,23 @@
+
+@import 'tailwindcss/base';
+@import 'slick-carousel/slick/slick.css';
+
+@import 'tailwindcss/components';
+@import 'slick-carousel/slick/slick-theme.css';
+
+@import 'tailwindcss/utilities';
+
+@layer base {
+    body {
+        background-color: black;
+    }
+}
+
+@layer components {
+    .add-box-container {
+        background-color: #000000b5;
+        border-radius: 30%;
+        width: 30px;
+    }
+}
+
