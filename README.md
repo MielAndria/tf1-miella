@@ -12,7 +12,7 @@
 
 ## Installation
 
-Faire npm install pour insatller les packages
+Faire npm install pour installer les packages
 
 ### `npm start`
 ouvrir [http://localhost:3000](http://localhost:3000) pour visualiser sur le browser.
