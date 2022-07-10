@@ -7,7 +7,7 @@ interface IProps {
 const ArrowPrevious: FC<IProps> = (props) => {
   const { onClick } = props;
   return (
-    <div className={"absolute z-20 top-[50%] bg-[#313132]"} onClick={onClick}>
+    <div className={"absolute z-20 top-[50%] bg-[#313132] cursor-pointer"} onClick={onClick}>
       <svg xmlns="http://www.w3.org/2000/svg"
            height="48"
            width="48"

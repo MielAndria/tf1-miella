@@ -7,7 +7,7 @@ interface IProps {
 const AddBox: FC<IProps> = (props) => {
   const {  } = props;
   return (
-    <div className={"add-box-container"}>
+    <div className={"add-box-container cursor-pointer"}>
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
            height="30"
            width="25"
